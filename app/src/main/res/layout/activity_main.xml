@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android_razrab.createcustomview.MainActivity">
+
+  <com.example.android_razrab.createcustomview.MyView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      custom:colorRgb="green"
+      custom:text="MyText"
+      custom:bigFont="true"
+      custom:showText="true"
+      custom:labelPosition="left"/>
+
+</RelativeLayout>

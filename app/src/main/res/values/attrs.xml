@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyChart">
+        <attr name="showText" format="boolean" />
+
+        <attr name="bigFont" format="boolean"/>
+
+        <attr name="text" format="string"/>
+
+
+        <attr name="colorRgb">
+            <enum name="red" value="0"></enum>
+            <enum name="green" value="1"></enum>
+            <enum name="blue" value="2"></enum>
+
+        </attr>
+
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
