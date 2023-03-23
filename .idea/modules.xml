@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CreateCustomView.iml" filepath="$PROJECT_DIR$/CreateCustomView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CreateView.iml" filepath="$PROJECT_DIR$/.idea/modules/CreateView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CreateView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CreateView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CreateView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CreateView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CreateView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CreateView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CreateView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CreateView.app.unitTest.iml" />
     </modules>
   </component>
 </project>

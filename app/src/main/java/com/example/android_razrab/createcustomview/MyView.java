@@ -22,12 +22,10 @@ import android.widget.TextView;
 
 class MyView extends View {
 
-
     boolean mShowText,isBigFont;
     int mTextPos,textColor;
 
     String text;
-
 
 
     public MyView(Context context, AttributeSet attrs) {
@@ -80,6 +78,8 @@ class MyView extends View {
         if((mShowText)&&(text!=null)) {
             canvas.drawText(text, 150, 150, paint);
         }
+
+        canvas.drawCircle(25F,68F,5,paint);
 
     }
 
