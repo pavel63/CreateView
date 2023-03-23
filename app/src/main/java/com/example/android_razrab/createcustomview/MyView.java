@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -58,6 +59,7 @@ class MyView extends View {
         super.onDraw(canvas);
         Paint paint=new Paint();
 
+
         if(textColor==0){
 
             paint.setColor(Color.RED);
@@ -79,8 +81,11 @@ class MyView extends View {
             canvas.drawText(text, 150, 150, paint);
         }
 
-        canvas.drawCircle(25F,68F,5,paint);
-
+        paint.setStrokeWidth(2f);
+       canvas.drawLine(100,100,200,200,paint);
+       canvas.drawLine(200,200,300,250,paint);
+       canvas.drawLine(300,250,380,350,paint);
+       canvas.drawLine(380,350,480,150,paint);
     }
 
 }
